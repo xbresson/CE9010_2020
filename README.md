@@ -60,10 +60,8 @@ Follow the following instructions to install Miniconda and create a Python envir
 
 
 1. Windows: Open the Anaconda Prompt terminal from the Start menu. MacOS, Linux: Open a terminal.
-1. Activate the environment. Type: `conda activate CE9010_2020`.
-1. Download the python notebooks. Go to folder `CE9010_2020/` with `cd CE9010_2020`, and type the command `git pull`. 
-1. Go to folder `CE9010_2020/tutorials` and duplicate the original notebook `tutorial01.ipynb` to a new folder (for example) `my_CE9010_2020/` outside folder `CE9010_2020/` to avoid future git conflicts.
-1. Go to folder `my_CE9010_2020/` and start Jupyter with `jupyter notebook`. The command opens a new tab in your web browser.
+1. Activate the environment. Type: `source activate CE9010_2020` or `conda activate CE9010_2020`.
+1. Go to folder `CE9010_2020/` and start Jupyter with `jupyter notebook`. The command opens a new tab in your web browser.
 1. Open, edit and run the notebook `tutorial01.ipynb` in your browser.
 
 
